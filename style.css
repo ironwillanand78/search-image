@@ -111,7 +111,7 @@ body {
 }
 
 /* Styling for the images container */
-.image-stored {
+.imageContainer {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -154,6 +154,7 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
     margin-top: 30px;
+    display: none;
 }
 
 .search-more:hover {
